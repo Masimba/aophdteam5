@@ -85,6 +85,11 @@ p.button a
 	border:#dedede;
 }
 
+.adUnit div {
+	float:left;
+	width:100%
+}
+
 .adUnit img {
 	padding:2%;
 	float:left;
