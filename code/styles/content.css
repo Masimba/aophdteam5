@@ -98,13 +98,6 @@ p.button a
 /********************************************************************/
 /*MEDIA QUERIES */
 /********************************************************************/	
-	@media only screen and (max-width:990px){
-		/*Yellow
-		body {
-			background-color: #FFFF00;
-		}*/
-		
-	}
 	
 	@media only screen and (max-width:768px){
 		/*Green
@@ -115,53 +108,48 @@ p.button a
 			max-width: 768px;
 			width: 97%;
 		}
-	}
-	
-	/*Mobile Landscape media query (321 to 480) fired*/
-	@media only screen and (max-width:480px){
-		/*Blue
-		body {
-			background-color: #0099FF;
-		}*/
-		.column {
-			max-width: 480px;
-			width: 95%;
-		}
-		
-		/* disable webkit text size adjust (for iPhone) */
-		
-		
-	}
-	
-	/*Mobile Landscape media query (321 to 480) fired*/
-	@media only screen and (max-width:480px){
-		/*Blue
-		body {
-			background-color: #0099FF;
-		}*/
-		.column {
-			max-width: 480px;
-			width: 95%;
-		}
-		
-.adUnit img {
-	display:none;
-}
-		/* disable webkit text size adjust (for iPhone) */
-		
-		
-	}
-	
-	/*Mobile Landscape media query (321 to 480) fired*/
-	@media only screen and (max-width:320px){
-		/*Blue
-		body {
-			background-color: #0099FF;
-		}*/
 
-		
+		.adUnit img {
+			height: 60px;
+		}
+				
+		h1 {
+			font-size:1.8em;
+		}
+	}
+	
+	/*Mobile Landscape media query (321 to 480) fired*/
+	@media only screen and (max-width:480px){
+		/*Blue
+		body {
+			background-color: #0099FF;
+		}*/
+		.column {
+			max-width: 480px;
+			width: 95%;
+		}
+
 		/* disable webkit text size adjust (for iPhone) */
+	}
+	
+	/*Mobile Landscape media query (321 to 480) fired*/
+	@media only screen and (max-width:480px){
+		/*Blue
+		body {
+			background-color: #0099FF;
+		}*/
+		.column {
+			max-width: 480px;
+			width: 95%;
+		}
 		
+		h1 {
+			font-size:1.1em;
+		}
 		
+		.adUnit img {
+			display:none;
+		}
+		/* disable webkit text size adjust (for iPhone) */	
 	}
 	
